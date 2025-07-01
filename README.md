@@ -63,6 +63,42 @@ A Dropbox-like cloud storage application with a React Native frontend and a Spri
 
 ---
 
+## **Setup Instructions**
+
+### **Backend (Spring Boot)**
+1. Copy the sample config file:
+   ```
+   cp backend/src/main/resources/application-sample.properties backend/src/main/resources/application.properties
+   ```
+2. Edit `application.properties` and fill in your actual database, mail, and JWT credentials.
+3. Build and run the backend:
+   ```
+   cd backend
+   mvn install
+   mvn spring-boot:run
+   ```
+
+### **Frontend (React Native)**
+1. Copy the sample credentials file:
+   ```
+   cp frontend/credentials.env.example frontend/.env
+   ```
+2. Edit `frontend/.env` and fill in your actual API URL and any other required secrets.
+3. Install dependencies and start the frontend:
+   ```
+   cd frontend
+   npm install
+   npm start
+   ```
+
+---
+
+**Note:**
+- Never commit your real credentials or secrets to the repository.
+- Use the provided sample files as templates for your own configuration.
+
+---
+
 ## **How to Run Locally**
 
 1. **Start Backend:**
