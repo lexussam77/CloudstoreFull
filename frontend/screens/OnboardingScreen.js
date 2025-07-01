@@ -2,7 +2,6 @@ import React, { useRef, useState } from 'react';
 import { View, Text, StyleSheet, FlatList, Dimensions, TouchableOpacity, SafeAreaView } from 'react-native';
 import MyFilesSVG from '../assets/images/undraw_my-files_1xwx.svg';
 import UploadSVG from '../assets/images/undraw_upload_cucu.svg';
-import SharingSVG from '../assets/images/undraw_sharing-articles_agyr.svg';
 
 const { width } = Dimensions.get('window');
 
@@ -23,7 +22,7 @@ const slides = [
     key: 'slide3',
     title: 'Stay Organized',
     description: 'Create folders, favorite files, and keep everything organized in the cloud.',
-    Illustration: SharingSVG,
+    Illustration: MyFilesSVG,
   },
 ];
 
