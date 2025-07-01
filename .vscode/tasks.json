@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Backend (Spring Boot)",
+      "type": "shell",
+      "command": "cd backend && mvn spring-boot:run",
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Runs the Spring Boot backend using Maven."
+    },
+    {
+      "label": "Run Frontend (React)",
+      "type": "shell",
+      "command": "cd frontend && npm start",
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Runs the React frontend using npm."
+    }
+  ]
+} 

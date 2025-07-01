@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CloudstoreBackendApplication",
+            "request": "launch",
+            "mainClass": "com.cloudstore.CloudstoreBackendApplication",
+            "projectName": "cloudstore-backend"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CloudStoreApplication<cloudstore-backend>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.cloudstore.CloudStoreApplication",
+            "projectName": "cloudstore-backend",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
